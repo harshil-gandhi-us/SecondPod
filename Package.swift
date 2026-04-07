@@ -2,25 +2,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "SecondPod",
+    name: "SecondNetwork",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "SecondPod",
-            targets: ["SecondPod"]
+            name: "SecondNetwork",
+            targets: ["SecondNetwork"]
         )
     ],
     targets: [
         .target(
-            name: "SecondPod",
+            name: "SecondNetwork",
             path: "Sources/SecondPod"
         ),
         .testTarget(
-            name: "SecondPodTests",
-            dependencies: ["SecondPod"],
-            path: "Tests/SecondPodTests"
+            name: "SecondNetworkTests",
+            dependencies: ["SecondNetwork"],
+            path: "Tests/SecondNetworkTests"
         ),
     ]
 )

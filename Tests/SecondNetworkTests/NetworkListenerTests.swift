@@ -1,6 +1,6 @@
 import XCTest
 
-@testable import SecondPod
+@testable import SecondNetwork
 
 final class NetworkListenerTests: XCTestCase {
 
